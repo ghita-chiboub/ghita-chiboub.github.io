@@ -1,0 +1,176 @@
+.faq-card .email-form{
+  margin: 0 auto;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .faq-card .email-form,
+  .faq-card .password-form {
+    padding: 0 5%;
+  }
+  .faq-card .email-form .our-story-cta-container,
+  .faq-card .password-form .our-story-cta-container {
+    padding: 0;
+  }
+}
+.email-form .inputError {
+  color: #E87C03;
+  text-align: left;
+  margin-bottom: -6px;
+  padding: 6px 3px;
+  font-size: 15px;
+}
+.email-form .nfTextField.error {
+  border-color: #E87C03;
+}
+
+.email-form-title {
+  padding: 0 5%;
+  max-width: 450px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+  .email-form-title {
+    padding: 0 10%;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form-title {
+    max-width: none;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
+.email-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form {
+    max-width: 950px;
+    padding-top: .85rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-flow: column-reverse;
+       -moz-box-orient: vertical;
+       -moz-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+}
+.email-form-lockup {
+  text-align: center;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (max-width: 349px) {
+  .email-form-lockup .field-email {
+    margin-bottom: 0;
+  }
+  .email-form-lockup .our-story-cta-container {
+    padding: 0;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form-lockup {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+  }
+  .email-form-lockup .simpleForm {
+    vertical-align: top;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+       -moz-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    text-align: right;
+  }
+  .email-form-lockup .nfInput {
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .email-form-lockup .our-story-cta-container {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+       -moz-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+  .email-form-lockup .our-story-cta,
+  .email-form-lockup .nmhp-cta {
+    margin: 0 !important;
+    -webkit-border-bottom-left-radius: 0;
+       -moz-border-radius-bottomleft: 0;
+            border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+       -moz-border-radius-topleft: 0;
+            border-top-left-radius: 0;
+    border-left: 1px solid #333333;
+  }
+  .email-form-lockup .btn.our-story-cta.our-story-cta-chevron.our-story-cta-extra-large.long-text-reg {
+    font-size: 1.25rem;
+    padding-right: 2.2rem;
+    padding-left: 1rem;
+  }
+  .email-form-lockup .btn.our-story-cta.our-story-cta-chevron.our-story-cta-extra-large.long-text-reg svg {
+    top: 36%;
+    right: .75rem;
+  }
+  .email-form-lockup .nmhp-cta-long-text {
+    font-size: 1.25rem;
+  }
+}
+.email-form-lockup .nfInput {
+  margin: 10px auto;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form-lockup .nfInput {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .email-form-lockup .nfInput input {
+    min-width: 450px;
+    height: 60px !important;
+    -webkit-border-bottom-right-radius: 0;
+       -moz-border-radius-bottomright: 0;
+            border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+       -moz-border-radius-topright: 0;
+            border-top-right-radius: 0;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .email-form-lockup .nfInput input {
+    min-width: 500px;
+    height: 70px !important;
+    -webkit-border-bottom-right-radius: 0;
+       -moz-border-radius-bottomright: 0;
+            border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+       -moz-border-radius-topright: 0;
+            border-top-right-radius: 0;
+  }
+}

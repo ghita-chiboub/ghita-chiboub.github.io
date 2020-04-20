@@ -1,0 +1,282 @@
+
+.our-story-cards {
+  margin: 0 auto;
+}
+.our-story-card-title {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .our-story-card-title {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .our-story-card-title {
+    font-size: 1.625rem;
+  }
+}
+.our-story-card-subtitle,
+.our-story-card-text {
+  font-size: 1.625rem;
+  font-weight: normal;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .our-story-card-subtitle,
+  .our-story-card-text {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .our-story-card-subtitle,
+  .our-story-card-text {
+    font-size: 1.125rem;
+  }
+}
+.our-story-card {
+  position: relative;
+  border-bottom: 8px solid #222;
+  padding: 50px 5%;
+  margin-bottom: 0;
+  background: transparent;
+  color: white;
+
+
+
+}
+@media only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .our-story-card {
+    padding: 70px 45px;
+  }
+}
+.our-story-card.our-story-card-no-border {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+
+
+.our-story-card-background {
+  z-index: 0;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .our-story-card-background {
+    top: -100px;
+  }
+}
+
+.center-pixel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.netflix-sans-font-loaded {
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.netflix-sans-font-loaded.nkufi-font-loaded {
+  font-family: NKufi, 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.netflix-sans-font-loaded.graphik-font-loaded {
+  font-family: 'GraphikTH', 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.hero-card {
+  /* Concord-like styles for the VLV hero card.  These are highly simplified compared to the control experience */
+  /* Text-shadow and placement of concord-like image for hero card with VLV */
+}
+.hero-card .our-story-card-title {
+  font-size: 1.75rem;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .hero-card .our-story-card-title {
+    font-size: 3.125rem;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .hero-card .our-story-card-title {
+    font-size: 4rem;
+  }
+}
+.hero-card .our-story-card-subtitle {
+  font-size: 1.625rem;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .hero-card .our-story-card-subtitle {
+    font-size: 1.125rem;
+  }
+}
+.hero-card .our-story-card-text {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px) {
+  .hero-card .our-story-card-text {
+    padding: 30px 0;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+  .hero-card .our-story-card-text {
+    padding: 15px 0;
+  }
+}
+@media only screen and (max-width: 349px) {
+  .hero-card .our-story-card-text {
+    padding: 0;
+  }
+}
+.hero-card .our-story-card-text .our-story-card-subtitle {
+  margin: 1rem 0;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .hero-card .our-story-card-text .our-story-card-subtitle {
+    margin-bottom: 2.5rem;
+  }
+}
+.hero-card .our-story-card-text .our-story-cta-container {
+  float: none;
+}
+.hero-card .concord-img-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .hero-card .concord-img-wrapper {
+    bottom: auto;
+  }
+}
+.hero-card .concord-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1.25) translateY(-10%);
+     -moz-transform: scale(1.25) translateY(-10%);
+      -ms-transform: scale(1.25) translateY(-10%);
+       -o-transform: scale(1.25) translateY(-10%);
+          transform: scale(1.25) translateY(-10%);
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .hero-card .concord-img {
+    height: auto;
+    -webkit-transform: none;
+       -moz-transform: none;
+        -ms-transform: none;
+         -o-transform: none;
+            transform: none;
+  }
+}
+.hero-card .concord-img-gradient {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7))), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -webkit-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -moz- oldradial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -o-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .hero-card .concord-img-gradient {
+    background: transparent;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(30%, transparent));
+    background-image: -webkit-linear-gradient(bottom, black 0%, transparent 30%);
+    background-image: -moz- oldlinear-gradient(bottom, black 0%, transparent 30%);
+    background-image: -o-linear-gradient(bottom, black 0%, transparent 30%);
+    background-image: linear-gradient(to top, black 0%, transparent 30%);
+  }
+  .hero-card .concord-img-gradient:before {
+    content: '';
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #000000), color-stop(25%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(top, #000000 25%, rgba(0, 0, 0, 0));
+    background-image: -moz- oldlinear-gradient(top, #000000 25%, rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(top, #000000 25%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, #000000 25%, rgba(0, 0, 0, 0));
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .hero-card.vlv .our-story-card-title {
+    font-size: 3.125rem;
+  }
+}
+.hero-card.vlv .our-story-card-title .our-story-card-text {
+  padding: 0 0 10px;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .hero-card.vlv .our-story-card-title .our-story-card-text {
+    padding: 50px 0;
+  }
+}
+.hero-card.vlv .our-story-card-title .our-story-card-title {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+.hero-card.vlv .concord-img {
+  -webkit-transform: none;
+     -moz-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .hero-card.vlv .concord-img {
+    height: 100%;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.hero-card.vlv .our-story-card-background .concord-img-wrapper {
+  bottom: 0;
+}
+.hero-card.vlv .concord-img-gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(60%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8)));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .hero-card.vlv .concord-img-gradient {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8)));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
+}
+@media only screen and (max-width: 740px) {
+}
+@media screen and (min-width: 740px) {
+}
+.hero-card .our-story-card-text {
+  max-width: 950px;
+}
+.hero-card .our-story-card-text h1,
+.hero-card .our-story-card-text h2 {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.hero-card .our-story-card-text .our-story-card-subtitle {
+  margin: 1rem auto;
+}

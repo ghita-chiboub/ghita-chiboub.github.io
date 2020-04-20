@@ -1,0 +1,110 @@
+
+
+.ui-label{
+  font-size: 16px;
+  font-weight: 400;
+  color: #8c8c8c;
+  display: block;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 1ex;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: #737373;
+  font-size: 23px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 740px) {
+  .ui-label{
+    font-size: 13px;
+  }
+}
+.ui-select-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.ui-select-wrapper > .ui-label {
+  margin-bottom: 0;
+}
+.ui-select-wrapper .select-arrow {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.ui-select-wrapper .select-arrow::after {
+  font-family: 'nf-icon';
+  color: black;
+  font-size: 6px;
+  content: '\e898';
+  position: absolute;
+  pointer-events: none;
+}
+.ui-select-wrapper .select-arrow.medium::after {
+  right: 10px;
+  top: 18px;
+}
+.ui-select-wrapper .select-arrow.medium::before {
+  top: 11px;
+  left: 15px;
+}
+.ui-select-wrapper .select-arrow.prefix.globe::before {
+  content: '\e896';
+}
+.ui-select-wrapper .select-arrow.prefix::before {
+  font-family: 'nf-icon';
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  pointer-events: none;
+}
+.ui-select-wrapper .select-arrow.prefix .ui-select.medium {
+  padding-left: 50px;
+  text-indent: 2px;
+  line-height: 1.7;
+}
+.ui-select {
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid #b3b3b3;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  width: 100%;
+  /*target Internet Explorer 9 and Internet Explorer 10:*/
+}
+.ui-select::-ms-expand {
+  display: none;
+}
+.ui-select.error {
+  border-color: #B00500;
+}
+.ui-select.valid {
+  border-color: #5fa53f;
+}
+.ui-select.medium {
+  padding: 12px;
+}
+.lang-selection-container {
+  margin-top: 20px;
+}
+.lang-selection-container .ui-select-wrapper {
+  width: auto;
+}
+.lang-selection-container .ui-select-wrapper .select-arrow.prefix::before {
+  top: 14px;
+}
+.lang-selection-container .ui-select-wrapper .select-arrow.prefix .ui-select.medium {
+  text-indent: 0;
+  padding-right: 26px;
+}
+.lang-selection-container .ui-select {
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f7f7));
+  background-image: -webkit-linear-gradient(top, #fff, #f7f7f7);
+  background-image: -moz- oldlinear-gradient(top, #fff, #f7f7f7);
+  background-image: -o-linear-gradient(top, #fff, #f7f7f7);
+  background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+  font-size: 13px;
+}

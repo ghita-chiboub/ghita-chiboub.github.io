@@ -1,0 +1,98 @@
+.nfFormSpace {
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.nfTextField {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  border: solid 1px #8c8c8c;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  display: block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  color: #000000;
+  padding: 10px 11px;
+  height: 44px;
+}
+
+
+.nfTextField:invalid,
+.nfTextField:valid {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+.nfTextField:focus {
+  border-color: #0071eb;
+  outline: none;
+}
+
+.nfTextField:disabled {
+  color: #a6a6a6;
+  border-color: #cccccc;
+}
+
+
+.nfInput {
+  max-width: 500px;
+  position: relative;
+  /* input is different on the home page */
+}
+.nfInput .nfInputPlacement {
+  position: relative;
+}
+.nfInput .nfInputPlacement.nfTextField {
+  padding-right: 40px;
+}
+
+
+.nfInput .placeLabel {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  color: #8c8c8c;
+  font-size: 14px;
+  -webkit-transition: font 0.1s ease, top 0.1s ease, -webkit-transform 0.1s ease;
+  transition: font 0.1s ease, top 0.1s ease, -webkit-transform 0.1s ease;
+  -o-transition: font 0.1s ease, top 0.1s ease, -o-transform 0.1s ease;
+  -moz-transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease, -moz-transform 0.1s ease;
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease;
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease, -webkit-transform 0.1s ease, -moz-transform 0.1s ease, -o-transform 0.1s ease;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+@media only screen and (min-width: 740px) {
+  .nfInput .placeLabel {
+    font-size: 16px;
+  }
+}
+.nfInput .nfTextField {
+  height: 48px;
+  padding: 10px 10px 0;
+  width: 100%;
+}
+.nfInput .nfTextField:focus + .placeLabel{
+  top: 4px;
+  font-size: 11px;
+  -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+       -o-transform: translateY(0);
+          transform: translateY(0);
+}
+.nfInput .nfTextField:-webkit-autofill + .placeLabel {
+  top: 4px;
+  font-size: 11px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
